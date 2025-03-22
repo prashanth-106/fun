@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #2e4053;
+    --accent-color: #e67e22;
+    --light-bg: #f8f9fa;
+  }
+  
+  .hero-section {
+    padding: 150px 0 100px;
+    background: var(--light-bg);
+  }
+  
+  .section-title {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .skill-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .progress-bar {
+    background-color: var(--accent-color);
+  }
+  
+  .project-card {
+    transition: transform 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+  }

@@ -1,0 +1,15 @@
+<section class="skills-section">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="row">
+        <div class="col-md-6" *NgFor="let skill of skills">
+          <div class="skill-item">
+            <h5>{{skill.name}}</h5>
+            <div class="progress">
+              <div class="progress-bar" [style.width.%]="skill.level"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
